@@ -15,9 +15,9 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
+        "illuminate/collections": "^8.0",
+        "illuminate/macroable": "^8.0",
         "lumphp/laravel-container": "^8.0",
-        "lumphp/laravel-collections": "^8.0",
-        "lumphp/laravel-macroable": "^8.0",
         "lumphp/laravel-support": "^8.0",
         "symfony/console": "^5.1.4",
         "symfony/process": "^5.1.4"
