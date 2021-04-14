@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
-        "illuminate/collections": "^8.0",
+        "lumphp/laravel-collections": "^8.0",
         "illuminate/macroable": "^8.0",
         "lumphp/laravel-container": "^8.0",
         "lumphp/laravel-support": "^8.0",
@@ -29,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.x-dev"
+            "dev-master": "8.x-dev"
         }
     },
     "suggest": {
