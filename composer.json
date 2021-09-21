@@ -4,8 +4,8 @@
     "license": "MIT",
     "homepage": "https://laravel.com",
     "support": {
-        "issues": "https://github.com/lumphp/laravel-console/issues",
-        "source": "https://github.com/lumphp/laravel-console"
+        "issues": "https://github.com/laravel/framework/issues",
+        "source": "https://github.com/laravel/framework"
     },
     "authors": [
         {
@@ -16,8 +16,8 @@
     "require": {
         "php": "^7.3|^8.0",
         "lumphp/laravel-collections": "^8.0",
-        "illuminate/macroable": "^8.0",
-        "lumphp/laravel-container": "^8.0",
+        "lumphp/laravel-contracts": "^8.0",
+        "lumphp/laravel-macroable": "^8.0",
         "lumphp/laravel-support": "^8.0",
         "symfony/console": "^5.1.4",
         "symfony/process": "^5.1.4"
@@ -33,8 +33,8 @@
         }
     },
     "suggest": {
-        "dragonmantank/cron-expression": "Required to use scheduler (^2.0).",
-        "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^8.0).",
+        "dragonmantank/cron-expression": "Required to use scheduler (^3.0.2).",
+        "guzzlehttp/guzzle": "Required to use the ping methods on schedules (^6.5.5|^7.0.1).",
         "lumphp/laravel-bus": "Required to use the scheduled job dispatcher (^8.0).",
         "lumphp/laravel-container": "Required to use the scheduler (^8.0).",
         "lumphp/laravel-filesystem": "Required to use the generator command (^8.0).",
